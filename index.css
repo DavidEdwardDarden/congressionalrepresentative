@@ -1,8 +1,10 @@
 #background {
-    background-color: lightblue;
+    background-color:dimgray;
     color: white;
     padding: 40px;
     text-align: center;
+    border-style: solid;
+    border-color: mistyrose;
   }
 
   #makeHorizontal {
@@ -12,5 +14,50 @@
   }
 
 #makeWhitetext {
-    color: white; 
+    color:mistyrose;
+    font-size: 200%;
+    font-weight: bolder;
+}
+
+.makesmaller {
+    font-size: 60%;
+  }
+
+.border {
+    border-style: double;
+    border-color: ivory;
+    border-width: medium;
+}
+
+.zoom {
+  padding: 50px;
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.colorred {
+    color: red;
+  }
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.makewide {
+    width: 100%;
+}
+
+.makeright {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.centeralignvertical {
+    display:flex;
+    align-items: center;
 }
