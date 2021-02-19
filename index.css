@@ -1,0 +1,16 @@
+#background {
+    background-color: lightblue;
+    color: white;
+    padding: 40px;
+    text-align: center;
+  }
+
+  #makeHorizontal {
+      display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+#makeWhitetext {
+    color: white; 
+}
