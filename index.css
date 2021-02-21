@@ -86,3 +86,8 @@
    
 .link { color: crimson; } 
 .link:hover { color: red; } 
+
+.nodot {
+    list-style-type: none;
+    padding-left: 0;
+}
